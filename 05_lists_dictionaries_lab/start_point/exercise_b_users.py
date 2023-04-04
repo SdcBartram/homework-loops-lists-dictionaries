@@ -67,12 +67,13 @@ print(min(users["Erik"]["lottery_numbers"]))
 
 # 6. Return a list of Avril's lottery numbers that are even
 even_numbers = []
-numbers = users["Erik"]["lottery_numbers"]
+numbers = users["Avril"]["lottery_numbers"]
 
 for num in numbers:
   if num % 2 == 0:
     even_numbers.append(num)
-  print(even_numbers)
+print(even_numbers)
+
 # how to only return last list/iteration ???
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
