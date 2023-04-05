@@ -25,7 +25,7 @@ print(difference_of_max_and_min_number)
 matching = True
 index = 0
 for num in numbers:
-    index =+ 1
+
 
 # 4. Print the sum of the numbers, 
 # # sum_numbers = sum(numbers)
