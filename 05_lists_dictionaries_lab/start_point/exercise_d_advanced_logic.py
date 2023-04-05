@@ -10,6 +10,10 @@ for num in numbers:
         even_numbers.append(num)
 print(even_numbers)
 
+# Alternative found --> 
+# even_numbers = [num for num in numbers if num%2==0]
+# print(even_numbers)
+
 # 2. Print the difference between the largest and smallest value:
 ordered_numbers = sorted(numbers)
 # print(ordered_numbers)
@@ -18,7 +22,10 @@ print(difference_of_max_and_min_number)
 
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
-
+matching = True
+index = 0
+for num in numbers:
+    index =+ 1
 
 # 4. Print the sum of the numbers, 
 # # sum_numbers = sum(numbers)
