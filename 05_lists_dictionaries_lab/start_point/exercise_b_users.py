@@ -74,8 +74,6 @@ for num in numbers:
     even_numbers.append(num)
 print(even_numbers)
 
-# how to only return last list/iteration ???
-
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 (users["Erik"]["lottery_numbers"]).append(7)
 # print((users["Erik"]["lottery_numbers"])) #check of append function
@@ -101,3 +99,6 @@ users["Bob"] = {
   }
 
 print(list(users))
+
+# Practice example in class Erik's pet of kevin
+users["Erik"]["pets"][1]["name"]

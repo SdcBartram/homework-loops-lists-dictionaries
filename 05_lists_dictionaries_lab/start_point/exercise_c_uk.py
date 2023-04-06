@@ -27,3 +27,10 @@ for countries in united_kingdom:
 total_population = sum(p["population"] 
                       for p in united_kingdom)
 print(total_population)
+#  alternative ---> 
+total_population = 0
+
+for country in united_kingdom:
+    total_population += country["population"]
+
+print(total_population)
